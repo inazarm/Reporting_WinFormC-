@@ -28,20 +28,63 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
+            this.employeeDBDataSet = new RDLC_Reporting.employeeDBDataSet();
+            this.EmployeesBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.EmployeesTableAdapter = new RDLC_Reporting.employeeDBDataSetTableAdapters.EmployeesTableAdapter();
+            ((System.ComponentModel.ISupportInitialize)(this.employeeDBDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EmployeesBindingSource)).BeginInit();
             this.SuspendLayout();
+            // 
+            // reportViewer1
+            // 
+            this.reportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            reportDataSource1.Name = "employeeDS";
+            reportDataSource1.Value = this.EmployeesBindingSource;
+            this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
+            this.reportViewer1.LocalReport.ReportEmbeddedResource = "RDLC_Reporting.EmployeeReport.rdlc";
+            this.reportViewer1.Location = new System.Drawing.Point(0, 0);
+            this.reportViewer1.Name = "reportViewer1";
+            this.reportViewer1.Size = new System.Drawing.Size(590, 338);
+            this.reportViewer1.TabIndex = 0;
+            // 
+            // employeeDBDataSet
+            // 
+            this.employeeDBDataSet.DataSetName = "employeeDBDataSet";
+            this.employeeDBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // EmployeesBindingSource
+            // 
+            this.EmployeesBindingSource.DataMember = "Employees";
+            this.EmployeesBindingSource.DataSource = this.employeeDBDataSet;
+            // 
+            // EmployeesTableAdapter
+            // 
+            this.EmployeesTableAdapter.ClearBeforeFill = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(402, 315);
+            this.ClientSize = new System.Drawing.Size(590, 338);
+            this.Controls.Add(this.reportViewer1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.employeeDBDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EmployeesBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private Microsoft.Reporting.WinForms.ReportViewer reportViewer1;
+        private System.Windows.Forms.BindingSource EmployeesBindingSource;
+        private employeeDBDataSet employeeDBDataSet;
+        private employeeDBDataSetTableAdapters.EmployeesTableAdapter EmployeesTableAdapter;
     }
 }
 
