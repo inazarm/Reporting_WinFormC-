@@ -1,0 +1,11 @@
+c:\users\inaza\documents\visual studio 2013\Projects\RDLC_Reporting\RDLC_Reporting\bin\Debug\RDLC_Reporting.exe.config
+c:\users\inaza\documents\visual studio 2013\Projects\RDLC_Reporting\RDLC_Reporting\bin\Debug\RDLC_Reporting.exe
+c:\users\inaza\documents\visual studio 2013\Projects\RDLC_Reporting\RDLC_Reporting\bin\Debug\RDLC_Reporting.pdb
+c:\users\inaza\documents\visual studio 2013\Projects\RDLC_Reporting\RDLC_Reporting\obj\Debug\RDLC_Reporting.csprojResolveAssemblyReference.cache
+c:\users\inaza\documents\visual studio 2013\Projects\RDLC_Reporting\RDLC_Reporting\obj\Debug\RDLC_Reporting.Form1.resources
+c:\users\inaza\documents\visual studio 2013\Projects\RDLC_Reporting\RDLC_Reporting\obj\Debug\RDLC_Reporting.Properties.Resources.resources
+c:\users\inaza\documents\visual studio 2013\Projects\RDLC_Reporting\RDLC_Reporting\obj\Debug\RDLC_Reporting.csproj.GenerateResource.Cache
+c:\users\inaza\documents\visual studio 2013\Projects\RDLC_Reporting\RDLC_Reporting\obj\Debug\RdlCompile.cache
+c:\users\inaza\documents\visual studio 2013\Projects\RDLC_Reporting\RDLC_Reporting\obj\Debug\RdlCompile.compiled
+c:\users\inaza\documents\visual studio 2013\Projects\RDLC_Reporting\RDLC_Reporting\obj\Debug\RDLC_Reporting.exe
+c:\users\inaza\documents\visual studio 2013\Projects\RDLC_Reporting\RDLC_Reporting\obj\Debug\RDLC_Reporting.pdb
